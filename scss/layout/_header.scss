@@ -1,0 +1,62 @@
+.header {
+  height: 887px;
+  display: block;
+}
+
+.logo {
+  padding-left: 9px;
+}
+
+.menu {
+  display: flex;
+  width: 515px;
+  justify-content: space-between;
+  margin-top: 17px;
+
+
+  &__radio-aboutUs {
+    padding-left: 9px;
+  }
+
+  &__text {
+    color: $color-secondary;
+    cursor: pointer;
+/*    opacity: 0.5;*/
+  }
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 53px;
+  margin-left: 79px;
+  padding-right: 20px;
+}
+
+.social {
+  width: 160px;
+  margin-top: 7px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+.content {
+  width: 97%;
+}
+
+.sidebar {
+  width: 3%;
+  white-space: pre-line;
+  align-self: center;
+  margin-bottom: 14px;
+}
+
+.arrow {
+  text-align: center;
+  padding-left: 67px;
+  padding-top: 243px;
+}

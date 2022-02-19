@@ -1,0 +1,35 @@
+.button {
+  width: 190px;
+  height: 50px;
+  display: inline-block;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  background: $color-secondary;
+  color: $color-additional;
+  border: 1px solid $color-basic;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 17px;
+  margin-bottom: 62px;
+
+  &:active {
+    background-color: $color-basic;
+    color: $color-secondary ;
+  }
+}
+
+input {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: $container-width ;
+  margin: auto;
+}

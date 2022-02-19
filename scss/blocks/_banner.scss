@@ -1,0 +1,11 @@
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  max-width: $container-width;
+  justify-content: space-between;
+}
